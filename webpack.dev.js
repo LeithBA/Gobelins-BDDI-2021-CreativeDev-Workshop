@@ -54,7 +54,7 @@ module.exports = {
             ,
             {
                 // Load all icons
-                test: /\.(eot|woff|woff2|svg|ttf)([\?]?.*)$/,
+                test: /\.(eot|woff|woff2|svg|ttf|png|jpg)([\?]?.*)$/,
                 use: [
                     {
                         loader: 'file-loader',
