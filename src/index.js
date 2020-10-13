@@ -3,7 +3,6 @@ require('./styles/index.scss');
 
 import Mouse from "./utils/mouse"
 import Easing from "./utils/easing"
-<<<<<<< HEAD
 import Run1 from "./assets/run1.png"
 import Run2 from "./assets/run2.png"
 import Low1 from "./assets/low1.png"
@@ -15,10 +14,6 @@ import Cactus2 from "./assets/CACTUS2.png"
 import Cactus3 from "./assets/CACTUS3.png"
 import Cactus4 from "./assets/CACTUS4.png"
 import Cactus5 from "./assets/CACTUS5.png"
-=======
-import Images from "./images.js"
-
->>>>>>> ef9cfafcbfeb852b5cca73f2acb95aa92f3f069d
 
 const canvas = document.querySelector('.main-canvas')
 canvas.width = window.innerWidth;
@@ -89,7 +84,6 @@ const update = () => {
     frameAnimationCount = frameCount % 16
 
 
-<<<<<<< HEAD
     doPhysics();
     renderFloor();
     spawnObjects();
@@ -100,13 +94,6 @@ const update = () => {
 
 
 
-=======
-    ctx.drawImage(Images.atlas.Cloud, 0, 0)
-
-}
-
-Images.init()
->>>>>>> ef9cfafcbfeb852b5cca73f2acb95aa92f3f069d
 requestAnimationFrame(update)
 
 function renderObjects() {
